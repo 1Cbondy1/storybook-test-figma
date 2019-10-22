@@ -24,7 +24,7 @@ export const secondaryButton = () =>
   export const xdButton = () =>
   <Button
     onClick={action('clicked')}
-    buttonText="XD Button"
+    buttonText="herbs recipes"
     classProp="button-xd">
   </Button>;
 
