@@ -21,3 +21,10 @@ export const secondaryButton = () =>
     classProp="button-secondary">
   </Button>;
 
+  export const xdButton = () =>
+  <Button
+    onClick={action('clicked')}
+    buttonText="XD Button"
+    classProp="button-xd">
+  </Button>;
+
